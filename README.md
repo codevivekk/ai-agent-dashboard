@@ -10,7 +10,7 @@ Built using Next.js, Vercel AI SDK, Anthropic Claude, and E2B / Vercel Sandbox.
 
 ## 🚀 Live Demo
 
-https://ai-sdk-computer-use.vercel.app
+[https://ai-sdk-computer-use.vercel.app](https://ai-agent-dashboard-pink.vercel.app/)
 
 ---
 
@@ -138,8 +138,9 @@ VERCEL_OIDC_TOKEN=
 ---
 
 ## 🎥 Demo Video
+https://youtu.be/ulYveSX4ESs
 
-[Add your video link here]
+
 
 ---
 
