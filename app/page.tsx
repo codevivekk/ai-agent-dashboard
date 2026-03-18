@@ -85,7 +85,7 @@ function ChatSession({ sessionId }: { sessionId: string }) {
             // In the AI SDK, this is usually a message with role 'tool', or parts containing 'tool-result'
             const isToolResponse = 
               lastMessage.role === "tool" || 
-              (Array.isArray(lastMessage.parts) && lastMessage.parts.some((p: any) => p.type === "tool-result" || p.type === "tool-invocation"));
+              (Array.isArray(lastMessage.parts) && lastMessage.parts.some((p: { type: string }) => p.type === "tool-result" || p.type === "tool-invocation"));
             
             if (isToolResponse) {
               setIsWaitingForNextStep(true);

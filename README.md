@@ -22,6 +22,7 @@ https://ai-sdk-computer-use.vercel.app
 * Right: VNC Viewer + Tool Details
 * Fully resizable panels
 
+
 ---
 
 ### 🧠 Event System (Core Architecture)
